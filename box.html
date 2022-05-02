@@ -13,7 +13,7 @@
       padding-top:50px;
       padding-bottom:50px;
       width:1270px;
-      height:580px;
+      height:620px;
       color: white;
       border:solid 30px yellow;
       border-radius: 25px;
@@ -41,11 +41,28 @@
        font-weight:bold;
        font-family:arial;
        text-align:center;
-       font-size:14px;
+       font-size:18px;
      }
      .navbar a:hover{
        background-color: #353640;
      }
+     .btn{
+       background-color: yellow;
+       border-radius: 50px;
+     }
+    .navbar input{
+      border-radius: 60px;
+    }
+    .input{
+    border-radius: 60px;
+    border:20px solid;
+    }
+    .container input{
+      border-radius: 80px;
+    }
+    img{
+      border-bottom-width: 60px;
+    }
 
   </style>
   </head>
@@ -58,16 +75,19 @@
         <li><a nhref="#">Blog</a></li>
         <li><a nhref="#">About</a></li>
         <li><a nhref="#">FAQ</a></li>
-        <li><a nhref="#">🔍</a></li>
+        <li><button type="button" class="btn btn-warning" name="button">🔍</button></a></li>
       </ul>
-    </div><i>Creative<p style="color:yellow;line-height:0cm">Marketing</i>
-        <p style="font-size:60px;color:yellow;">Subscribe Now<br><img src="https://images.squarespace-cdn.com/content/v1/5c5dc0957a1fbd0a48a1b0dc/1570033845981-3MXLIMBVXO54D6MWFQGS/employee-background-checks
-          -in-new-york.png?format=500w" style="float: right; margin-right:150px; margin-top:0px; margin-bottom:-5px;">to Our Newsletter</p><i><p style="float: right; margin-left:140px; margin-top:-180px;">✈️
+    </div>
+<div class="container">
+    <i>Creative<p style="color:yellow;line-height:0cm">Marketing</i>
+      <img src="https://images.squarespace-cdn.com/content/v1/5c5dc0957a1fbd0a48a1b0dc/1570033845981-3MXLIMBVXO54D6MWFQGS/employee-background-checks-in-new-york.png?format=500w" style="float: right; margin-right:50px; margin-top:165px; margin-bottom:0px;">
+        <p style="font-size:60px;color:yellow;">Subscribe Now<br><span style="color:white;">to Our Newsletter</p><i>
         <p style="font-size:15px">A paragraph is a series of related sentences developing<br><br>
            A central idea called the topic. Try to think about paragraphs<br><br>In terms of thematic unity a paragraph is a sentence.</p></i><br>
-             <input type="text"placeholder="Name" id="name" autocomplete="off'>"<br><br>
-             <br><input type="text"placeholder="Email" id="Email" autocomplete="off'>"<br><br>
-             <br><button>Send➧</button><p style="float: right; margin-right:150px; margin-top:0px; margin-bottom:10px;">💬<br>
-
+             <input type="text" placeholder="Name" id="name"  size="40"><br>
+             <br><input type="text"placeholder="Email" id="Email" size="40"><br>
+          <br><button type="button" class="btn btn-warning" name="button">Send➧</button><p style="float: center; margin-left:10px; margin-top:10px;">
+        <p style="float:center; margin-bottom:30px;" width="30px;" align="center">💬</p>
+          </div>
 </body>
 </html>
